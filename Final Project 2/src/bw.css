@@ -1,0 +1,97 @@
+body {
+  background: white;
+}
+
+.nav {
+  background-color: #f8bbd0;
+  width: 200px;
+  height: 300px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  word-spacing: 2px;
+  letter-spacing: 2px;
+  padding-top: 25px;
+  margin-top: 150px;
+  opacity: 0.7;
+  transition: all 1000ms ease-in-out;
+ }
+
+ .text {
+  font-size: 28px;
+  text-align: left;
+  color: white;
+  text-decoration: none;
+  padding-left: 8px;
+  font-weight: 600;
+ }
+
+ .text:hover{
+  margin-left: 25px;
+  color: #880e4f;
+ }
+
+ .container {
+  display: block;
+  margin-left: 200px;
+  max-width: 1000px;
+  background-color: #f8bbd0;
+}
+
+
+h1,h2 {
+    text-align: center;
+    color: #880e4f;
+}
+
+
+
+button {
+display: block;
+margin: 20px auto;
+border: 1px solid #b082db;
+background: #880e4f;
+color: #fff;
+font-size: 16px;
+line-height: 22px;
+padding: 16px 24px;
+border-radius: 30px;
+transition: all 200ms ease;
+box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+cursor: pointer;
+}
+
+button:hover {
+background: #f8bbd0;
+color: white;
+border: 1px solid darkslategray;
+}
+
+div {
+
+text-align: center;
+font-size: larger;
+color: white;
+
+}
+
+a {
+color: #880e4f;
+}
+
+h4 {
+color: #880e4f;
+text-align: center;
+font-size: x-large;
+}
+
+.dark {
+background-color:#880e4f;
+}
+
+.dark h4 {
+color: white;
+}
